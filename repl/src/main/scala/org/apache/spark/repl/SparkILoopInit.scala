@@ -25,10 +25,10 @@ trait SparkILoopInit {
   /** Print a welcome message */
   def printWelcome() {
     echo("""Welcome to
-      ____              __
-     / __/__  ___ _____/ /__
-    _\ \/ _ \/ _ `/ __/  '_/
-   /___/ .__/\_,_/_/ /_/\_\   version %s
+      ____          __   __
+     / __/__  ___ _/ /  / /__
+    _\ \/ _ \/ _ `/ _ \/  '_/
+   /___/ .__/\_,_/_//_/_/\_\  version %s
       /_/
 """.format(SPARK_VERSION))
     import Properties._

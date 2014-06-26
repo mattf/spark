@@ -46,10 +46,11 @@ sc = SparkContext(appName="PySparkShell", pyFiles=add_files)
 atexit.register(lambda: sc.stop())
 
 print("""Welcome to
-      ____              __
-     / __/__  ___ _____/ /__
-    _\ \/ _ \/ _ `/ __/  '_/
-   /__ / .__/\_,_/_/ /_/\_\   version %s
+
+      ____          __   __
+     / __/__  ___ _/ /  / /__
+    _\ \/ _ \/ _ `/ _ \/  '_/
+   /___/ .__/\_,_/_//_/_/\_\  version %s
       /_/
 """ % sc.version)
 print("Using Python version %s (%s, %s)" % (
